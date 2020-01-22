@@ -97,15 +97,16 @@
 
 @media only screen and (max-width: 575.98px) {
 
-  .leftDiv
-  { margin:0;
-    width: 100%;
- }
- .rightDiv{
+.rightDiv{
+	height:0;
 	width:0;
-	height: 0;
-	visibility: hidden;
- }
+	display:none;
+}
+.leftDiv{
+	width:100%;
+	margin:0;
+}
+
   .h1{
 		margin-top:20%;
     font-size: 15pt;
@@ -129,8 +130,9 @@
   }
 	img{
 		visibility: hidden;
+		width:0;
+		height:0;
 	}
-
   .sscol-1 {width: 8.33%;}
   .sscol-2 {width: 16.66%;}
   .sscol-3 {width: 25%;}
@@ -148,16 +150,8 @@
 	img{
  	  visibility: hidden;
  }
- .leftDiv
- { margin: 0;
-	width: 100%;
 
-}
- rightDiv{
-	 visibility:hidden;
- }
-
- h1 {
+h1 {
 	 margin-top:15%;
  }
   .scol-1 {width: 8.33%;}
@@ -178,11 +172,17 @@
  img{
 	  visibility: hidden;
 }
+.leftDiv
+{ margin-left:0;
+	width: 100%;
+}
+
+}
 @media only screen and (min-width: 768px) {
 	img{
  	  visibility: visible;
  }
- rightDiv{
+ .rightDiv{
 	 visibility:visible;
  }
 
@@ -205,7 +205,7 @@
  	  visibility: visible;
 
  }
- rightDiv{
+ .rightDiv{
 	 visibility:visible;
  }
 
@@ -227,7 +227,7 @@
 	img{
  	  visibility: visible;
  }
- rightDiv{
+ .rightDiv{
 	 visibility:visible;
  }
   .llcol-1 {width: 8.33%;}
