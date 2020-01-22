@@ -1,0 +1,93 @@
+/* Adrobin Specific Colors */
+.white { color: white; }
+.black { color: black; }
+.light { color: #FAFAFB; }
+.purple { color: #6415E6; }
+.blue { color: #008AFC; }
+.green {color: #00D38C; }
+
+.bg-white { background-color: white; }
+.bg-black { background-color: black; }
+.bg-light { background-color: #FAFAFB; }
+.bg-purple { background-color: #6415E6; }
+.bg-blue { background-color: #008AFC; }
+.bg-green { background-color: #00D38C; }
+
+@font-face{
+  font-family: 'Eina';
+  src: url('./fonts/Eina01-Regular.ttf') format('truetype');
+}
+@font-face{
+  font-family: 'Eina-Light';
+  src: url('./fonts/Eina01-Light.ttf') format('truetype');
+}
+@font-face{
+  font-family: 'Eina-Bold';
+  src: url('./fonts/Eina01-Bold.ttf') format('truetype');
+}
+
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: "Eina", Arial, Helvetica, sans-serif;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+
+body {
+  line-height: 1;
+}
+body, div, h1, h2, h3, h4, h5, h6, p, a, button, input, textarea, select, ol, ul, li, span {
+  font-family: 'Eina';
+}
+light, .light{
+  font-family: 'Eina-Light';
+}
+strong, .strong{
+  font-family: 'Eina-Bold';
+}
+
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+select {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+}
+
+textarea {
+  font-family: 'Eina', 'Raleway', sans-serif
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: 'Eina', 'Raleway', sans-serif
+}
+
+/*  */
+/*  */
+/*  */

@@ -1,0 +1,241 @@
+
+.outerDiv
+			{
+        z-index:-1;
+				background-color: white;
+				height: 100vh;
+				width: 100vw;
+			}
+			.leftDiv
+			{ margin-left: 5%;
+				margin-right:8%;
+				background-color: white;
+				height: 100vh;
+				float: left;
+			}
+			.rightDiv
+			{
+				background-color: #E5E5E5;
+
+				height: 100vh;
+				float: right;
+			}
+  h1{
+       line-height: 1.5;
+       position:relative;
+       margin-top:10%;
+       margin-left:8%;
+       font-size: 25pt;
+       margin-bottom:0;
+		   padding-right: 10%;}
+       h2{
+        font-size:10pt;
+        color:gray;
+        margin-top:5%;
+
+       }
+       .longinbox{
+        margin-top:0;
+        margin-left:8%;
+       }
+
+       input[type=email] {
+          width: 85%;
+          background: transparent;
+					font-size: 25pt;
+          margin-top:0;
+          border: none;
+          border-bottom: 1px solid gray;
+       }
+       input[type=password] {
+          width: 85%;
+					font-size: 25pt;
+          background: transparent;
+          margin-top:0;
+          border: none;
+          border-bottom: 1px solid gray;
+       }
+       .check{
+        margin-top:5%;
+       }
+       .check span{
+        font-size:10pt;
+        color:black;
+       }
+       .check a{
+        font-size:10pt;
+        margin-left:40%;
+       }
+       .inputarea{
+        margin-top: 10%;
+        width: 98%;
+       }
+       button{
+        margin-top:5%;
+        position:relative;
+        width:85%;
+        height:40px;
+        font-size:10pt;
+        color:white;
+        background-color:#6415E6;
+        border:none;
+        box-shadow: 2px 2px 5px gray;
+
+       }
+       .firstline{
+        font-size: 10pt;
+        margin-top: 22px;
+       }
+       .secondline{
+        font-size: 10pt;
+        margin-top:6px;
+       }
+       img {
+         position:absolute;
+         left: 60%;
+         top: 30%;
+         z-index: 2;
+       }
+
+@media only screen and (max-width: 575.98px) {
+
+  .leftDiv
+  { margin: auto;
+   width: 50%;
+
+  padding: 10px;
+ }
+  .h1{
+		margin-top:20%;
+    font-size: 15pt;
+		text-align: center;
+  }
+  .check span{
+   font-size:8pt;
+
+  }
+  .check a{
+   font-size:8pt;
+     margin-left:20%;
+  }
+  .firstline{
+   font-size: 8pt;
+
+  }
+  .secondline{
+   font-size: 8pt;
+
+  }
+	img{
+		visibility: hidden;
+	}
+	rightDiv{
+	 width:0;
+	}
+  .sscol-1 {width: 8.33%;}
+  .sscol-2 {width: 16.66%;}
+  .sscol-3 {width: 25%;}
+  .sscol-4 {width: 33.33%;}
+  .sscol-5 {width: 41.66%;}
+  .sscol-6 {width: 50%;}
+  .sscol-7 {width: 58.33%;}
+  .sscol-8 {width: 66.66%;}
+  .sscol-9 {width: 75%;}
+  .sscol-10 {width: 83.33%;}
+  .sscol-11 {width: 91.66%;}
+  .sscol-12 {width: 100%;}
+}
+@media only screen and (min-width: 576px) {
+	img{
+ 	  visibility: hidden;
+ }
+ rightDiv{
+	 visibility:hidden;
+ }
+
+ h1 {
+	 margin-top:15%;
+ }
+  .scol-1 {width: 8.33%;}
+  .scol-2 {width: 16.66%;}
+  .scol-3 {width: 25%;}
+  .scol-4 {width: 33.33%;}
+  .scol-5 {width: 41.66%;}
+  .scol-6 {width: 50%;}
+  .scol-7 {width: 58.33%;}
+  .scol-8 {width: 66.66%;}
+  .scol-9 {width: 75%;}
+  .scol-10 {width: 83.33%;}
+  .scol-11 {width: 91.66%;}
+  .scol-12 {width: 100%;}
+}
+@media only screen and (min-width: 640px) {
+
+ img{
+	  visibility: hidden;
+}
+@media only screen and (min-width: 768px) {
+	img{
+ 	  visibility: visible;
+ }
+ rightDiv{
+	 visibility:visible;
+ }
+
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+}
+@media only screen and (min-width: 992px) {
+	img{
+ 	  visibility: visible;
+
+ }
+ rightDiv{
+	 visibility:visible;
+ }
+
+  .lcol-1 {width: 8.33%;}
+  .lcol-2 {width: 16.66%;}
+  .lcol-3 {width: 25%;}
+  .lcol-4 {width: 33.33%;}
+  .lcol-5 {width: 41.66%;}
+  .lcol-6 {width: 50%;}
+  .lcol-7 {width: 58.33%;}
+  .lcol-8 {width: 66.66%;}
+  .lcol-9 {width: 75%;}
+  .lcol-10 {width: 83.33%;}
+  .lcol-11 {width: 91.66%;}
+  .lcol-12 {width: 100%;}
+
+}
+@media only screen and (min-width: 1200px) {
+	img{
+ 	  visibility: visible;
+ }
+ rightDiv{
+	 visibility:visible;
+ }
+  .llcol-1 {width: 8.33%;}
+  .llcol-2 {width: 16.66%;}
+  .llcol-3 {width: 25%;}
+  .llcol-4 {width: 33.33%;}
+  .llcol-5 {width: 41.66%;}
+  .llcol-6 {width: 50%;}
+  .llcol-7 {width: 58.33%;}
+  .llcol-8 {width: 66.66%;}
+  .llcol-9 {width: 75%;}
+  .llcol-10 {width: 83.33%;}
+  .llcol-11 {width: 91.66%;}
+  .llcol-12 {width: 100%;}
+}
