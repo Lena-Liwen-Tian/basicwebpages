@@ -35,25 +35,26 @@
        .longinbox{
         margin-top:0;
         margin-left:8%;
+				margin-right:8%;
        }
 
        input[type=email] {
-          width: 100%;
+          width: 98%;
           background: transparent;
 					font-size: 25pt;
           margin-top:0;
           border: none;
           border-bottom: 1px solid gray;
-	    border-radius:0px;
+					border-radius: 0;
        }
        input[type=password] {
-          width: 100%;
+          width: 98%;
 					font-size: 25pt;
           background: transparent;
           margin-top:0;
           border: none;
           border-bottom: 1px solid gray;
-	        border-radius:0px;
+					border-radius: 0;
        }
        .check{
         margin-top:5%;
@@ -170,10 +171,49 @@
 			.scol-11 {width: 91.66%;}
 			.scol-12 {width: 100%;}
 		}
+@media only screen and (max-width: 736px) {
+	.rightDiv{
+		height:0;
+		width:0;
+		display:none;
+	}
+	.leftDiv{
+		width:100%;
+		margin:0;
+	}
 
+	.longinbox{
 
+	 margin-left:8%;
+	 margin-right:8%;
+	}
+	  .h1{
+			margin-top:20%;
+	    font-size: 15pt;
+
+	  }
+	  .check span{
+	   font-size:8pt;
+
+	  }
+	  .check a{
+	   font-size:8pt;
+	   margin-left: 0;
+	  }
+	  .firstline{
+	   font-size: 8pt;
+
+	  }
+	  .secondline{
+	   font-size: 8pt;
+
+	  }
+		img{
+		width:0;
+			height:0;
+		}
+}
 	@media only screen and (min-width: 768px) {
-
 								.col-1 {width: 8.33%;}
 								.col-2 {width: 16.66%;}
 								.col-3 {width: 25%;}
@@ -188,7 +228,6 @@
 								.col-12 {width: 100%;}
 
 							}
-
 
 						@media only screen and (min-width: 992px) {
 
