@@ -64,6 +64,7 @@
        .check span{
         font-size:10pt;
         color:black;
+	display:flex;
        }
        .check a{
         font-size:10pt;
