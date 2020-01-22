@@ -41,7 +41,8 @@
        input[type=email] {
           width: 95%;
           background: transparent;
-					font-size: 25pt;
+	 font-size: 25pt;
+	  padding:0;
           margin-top:0;
           border: none;
           border-bottom: 1px solid gray;
@@ -49,7 +50,8 @@
        }
        input[type=password] {
           width: 95%;
-					font-size: 25pt;
+	 font-size: 25pt;
+	  padding:0;
           background: transparent;
           margin-top:0;
           border: none;
@@ -66,7 +68,7 @@
        .check a{
         font-size:10pt;
         float:right;
-				margin-right:15%;
+	margin-right:15%;
        }
        .inputarea{
         margin-top: 10%;
