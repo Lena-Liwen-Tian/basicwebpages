@@ -4,9 +4,8 @@
         z-index:-1;
 				background-color: white;
 				height: 100vh;
-				width: 100vw;
 			}
-			.leftDiv
+		 .leftDiv
 			{ margin-left: 5%;
 				margin-right:8%;
 				background-color: white;
@@ -16,7 +15,6 @@
 			.rightDiv
 			{
 				background-color: #E5E5E5;
-
 				height: 100vh;
 				float: right;
 			}
@@ -100,10 +98,13 @@
 @media only screen and (max-width: 575.98px) {
 
   .leftDiv
-  { margin: auto;
-   width: 50%;
-
-  padding: 10px;
+  { margin:0;
+    width: 100%;
+ }
+ .rightDiv{
+	width:0;
+	height: 0;
+	visibility: hidden;
  }
   .h1{
 		margin-top:20%;
@@ -116,7 +117,7 @@
   }
   .check a{
    font-size:8pt;
-     margin-left:20%;
+   margin-left: 0;
   }
   .firstline{
    font-size: 8pt;
@@ -129,9 +130,7 @@
 	img{
 		visibility: hidden;
 	}
-	rightDiv{
-	 width:0;
-	}
+
   .sscol-1 {width: 8.33%;}
   .sscol-2 {width: 16.66%;}
   .sscol-3 {width: 25%;}
@@ -149,6 +148,11 @@
 	img{
  	  visibility: hidden;
  }
+ .leftDiv
+ { margin: 0;
+	width: 100%;
+
+}
  rightDiv{
 	 visibility:hidden;
  }
