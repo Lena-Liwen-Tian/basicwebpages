@@ -62,7 +62,8 @@
        }
        .check a{
         font-size:10pt;
-        margin-left:40%;
+        float:right;
+				margin-right:15%;
        }
        .inputarea{
         margin-top: 10%;
