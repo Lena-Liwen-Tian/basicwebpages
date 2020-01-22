@@ -35,7 +35,7 @@
        .longinbox{
         margin-top:0;
         margin-left:8%;
-				margin-right:8%;
+	margin-right:8%;
        }
 
        input[type=email] {
@@ -67,7 +67,7 @@
        }
        .check a{
         font-size:10pt;
-        float:right;
+        display:flex;
 	margin-right:15%;
        }
        .inputarea{
