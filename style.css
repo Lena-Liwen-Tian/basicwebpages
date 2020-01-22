@@ -15,15 +15,15 @@
 
 @font-face{
   font-family: 'Eina';
-  src: url('./fonts/Eina01-Regular.ttf') format('truetype');
+  src: url('./Eina01-Regular.ttf') format('truetype');
 }
 @font-face{
   font-family: 'Eina-Light';
-  src: url('./fonts/Eina01-Light.ttf') format('truetype');
+  src: url('./Eina01-Light.ttf') format('truetype');
 }
 @font-face{
   font-family: 'Eina-Bold';
-  src: url('./fonts/Eina01-Bold.ttf') format('truetype');
+  src: url('./Eina01-Bold.ttf') format('truetype');
 }
 
 /* Reset */
