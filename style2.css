@@ -38,7 +38,7 @@
        }
 
        input[type=email] {
-          width: 85%;
+          width: 100%;
           background: transparent;
 					font-size: 25pt;
           margin-top:0;
@@ -46,7 +46,7 @@
           border-bottom: 1px solid gray;
        }
        input[type=password] {
-          width: 85%;
+          width: 100%;
 					font-size: 25pt;
           background: transparent;
           margin-top:0;
@@ -72,7 +72,7 @@
        button{
         margin-top:5%;
         position:relative;
-        width:85%;
+        width:100%;
         height:40px;
         font-size:10pt;
         color:white;
@@ -107,17 +107,11 @@
 	width:100%;
 	margin:auto;
 }
-button{
- margin-top:5%;
- position:relative;
- width:85%;
- height:40px;
- font-size:10pt;
- color:white;
- background-color:#6415E6;
- border:none;
- box-shadow: 2px 2px 5px gray;
 
+.longinbox{
+
+ margin-left:8%;
+ margin-right:8%;
 }
   .h1{
 		margin-top:20%;
@@ -158,14 +152,52 @@ button{
   .sscol-11 {width: 91.66%;}
   .sscol-12 {width: 100%;}
 }
-@media only screen and (min-width: 576px) {
-	img{
- 	  visibility: hidden;
- }
+@media only screen and (min-width: 640px) {
+	.rightDiv{
+		height:0;
+		width:0;
+		display:none;
+	}
+	.leftDiv{
+		width:100%;
+		margin:auto;
+	}
 
-h1 {
-	 margin-top:15%;
- }
+	.longinbox{
+
+	 margin-left:8%;
+	 margin-right:8%;
+	}
+	  .h1{
+			margin-top:20%;
+	    font-size: 15pt;
+
+	  }
+	  .check span{
+	   font-size:8pt;
+
+	  }
+	  .check a{
+	   font-size:8pt;
+	   margin-left: 0;
+	  }
+	  .firstline{
+	   font-size: 8pt;
+
+	  }
+	  .secondline{
+	   font-size: 8pt;
+
+	  }
+		img{
+			visibility: hidden;
+			width:0;
+			height:0;
+		}
+
+}
+@media only screen and (min-width: 576px) {
+
   .scol-1 {width: 8.33%;}
   .scol-2 {width: 16.66%;}
   .scol-3 {width: 25%;}
@@ -179,17 +211,7 @@ h1 {
   .scol-11 {width: 91.66%;}
   .scol-12 {width: 100%;}
 }
-@media only screen and (min-width: 640px) {
 
- img{
-	  visibility: hidden;
-}
-.leftDiv
-{ margin-left:0;
-	width: 100%;
-}
-
-}
 @media only screen and (min-width: 768px) {
 	img{
  	  visibility: visible;
@@ -213,13 +235,7 @@ h1 {
 
 }
 @media only screen and (min-width: 992px) {
-	img{
- 	  visibility: visible;
 
- }
- .rightDiv{
-	 visibility:visible;
- }
 
   .lcol-1 {width: 8.33%;}
   .lcol-2 {width: 16.66%;}
@@ -236,12 +252,7 @@ h1 {
 
 }
 @media only screen and (min-width: 1200px) {
-	img{
- 	  visibility: visible;
- }
- .rightDiv{
-	 visibility:visible;
- }
+
   .llcol-1 {width: 8.33%;}
   .llcol-2 {width: 16.66%;}
   .llcol-3 {width: 25%;}
