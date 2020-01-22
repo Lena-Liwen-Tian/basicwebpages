@@ -101,15 +101,7 @@
 
 
 @media only screen and (max-width: 575.98px) {
- input[type=email]{
-	width:98%;
-	}
-input[type=password]{
-	width:98%;
-	}
-button{
-	width:98%;
-	}
+ 
 .rightDiv{
 	height:0;
 	width:0;
@@ -165,15 +157,7 @@ button{
 }
 
 @media only screen and (min-width: 576px) {
-	 input[type=email]{
-	width:98%;
-	}
-input[type=password]{
-	width:98%;
-	}
-button{
-	width:98%;
-	}
+	
 
 			.scol-1 {width: 8.33%;}
 			.scol-2 {width: 16.66%;}
@@ -189,15 +173,7 @@ button{
 			.scol-12 {width: 100%;}
 		}
 @media only screen and (max-width: 736px) {
-	 input[type=email]{
-	width:98%;
-	}
-input[type=password]{
-	width:98%;
-	}
-button{
-	width:98%;
-	}
+	
 	.rightDiv{
 		height:0;
 		width:0;
