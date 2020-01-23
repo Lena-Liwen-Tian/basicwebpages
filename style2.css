@@ -58,6 +58,9 @@
           border-bottom: 1px solid gray;
 					border-radius: 0;
        }
+td {
+	width:40%;
+}
        .check{
         margin-top:5%;
        }
@@ -68,7 +71,7 @@
        }
        .check a{
         font-size:10pt;
-        margin-left:30%;
+        
        }
        .inputarea{
         margin-top: 10%;
