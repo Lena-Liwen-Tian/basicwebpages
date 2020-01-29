@@ -62,6 +62,9 @@ td {
 	width:50%;
 	
 }
+td .forgotpassword {
+	text-align:right;
+}
        .check{
         margin-top:5%;
        }
