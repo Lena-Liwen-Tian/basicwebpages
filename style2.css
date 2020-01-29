@@ -58,17 +58,7 @@
           border-bottom: 1px solid gray;
 					border-radius: 0;
        }
-table{
-	width:100%;
-}
-	
-td {
-	width:50%;
-	
-}
-.forgotpassword {
-	text-align:right;
-}
+
        .check{
         margin-top:5%;
        }
@@ -97,6 +87,17 @@ td {
        
 
        }
+table{
+	width:100%;
+}
+	
+td {
+	width:50%;
+	
+}
+.forgotpassword {
+	text-align:right;
+}
        .firstline{
         font-size: 10pt;
         margin-top: 6px;
