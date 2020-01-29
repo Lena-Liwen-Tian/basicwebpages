@@ -29,7 +29,7 @@
        h2{
         font-size:10pt;
         color:gray;
-        margin-top:5%;
+        margin-top:40px;
 
        }
        .longinbox{
@@ -75,11 +75,11 @@ td {
         
        }
        .inputarea{
-        margin-top: 10%;
+        margin-top: 20px;
         width: 98%;
        }
        button{
-        margin-top:5%;
+        margin-top:10px;
         position:relative;
         width:95%;
         height:40px;
